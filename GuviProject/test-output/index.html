@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,11 +104,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="PageRunner.PageSearchRunner" class="method navigator-link" hash-for-method="AddToCart">AddToCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="PageRunner.PageSearchRunner" class="method navigator-link" hash-for-method="SearchData">SearchData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -127,17 +122,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="PageRunner.LoginRunner" class="method navigator-link" hash-for-method="loginPage">loginPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="PageRunner.PageSearchRunner" class="method navigator-link" hash-for-method="SearchData">SearchData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="PageRunner.SiteNavigationRunner" class="method navigator-link" hash-for-method="survey_window">survey_window</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="PageRunner.LoginRunner" class="method navigator-link" hash-for-method="validLoginDetails">validLoginDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -163,15 +153,15 @@
                   <a name="AddToCart">
                   </a> <!-- AddToCart -->
                   <span class="method-name">AddToCart</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;fulfillment-add-to-cart-button&apos;)]//div//div//button[contains(@type,&apos;button&apos;)][normalize-space()=&apos;Add to Cart&apos;][@data-sku-id=&apos;6539910&apos;]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot; data-track=&quot;... - Top&quot;&gt;Checkout&lt;/button&gt; is not clickable at point (1151, 419). Other element would receive the click: &lt;div class=&quot;row&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=117.0.5938.132)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0c9a3da8e586e20d8034095d2f5b9015, findElement {using=xpath, value=//div[contains(@class,&apos;fulfillment-add-to-cart-button&apos;)]//div//div//button[contains(@type,&apos;button&apos;)][normalize-space()=&apos;Add to Cart&apos;][@data-sku-id=&apos;6539910&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51441/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0c9a3da8e586e20d8034095d2f5b9015
+Command: [b778eb205f715a15eea09419baad9667, clickElement {id=F1A89B435C6450D36D9221432982FA41_element_425}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59581/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b778eb205f715a15eea09419baad9667)] -&gt; xpath: //button[normalize-space()=&apos;Checkout&apos;]]
+Session ID: b778eb205f715a15eea09419baad9667
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -179,47 +169,11 @@ Session ID: 0c9a3da8e586e20d8034095d2f5b9015
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at Pages.PageSearch.AddToCart(PageSearch.java:63)
-	at PageRunner.PageSearchRunner.AddToCart(PageSearchRunner.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SearchData">
-                  </a> <!-- SearchData -->
-                  <span class="method-name">SearchData</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;gh-search-input&apos;]&quot;}
-  (Session info: chrome=117.0.5938.132)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0c9a3da8e586e20d8034095d2f5b9015, findElement {using=xpath, value=//input[@id=&apos;gh-search-input&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51441/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0c9a3da8e586e20d8034095d2f5b9015
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
-	at Pages.PageSearch.SearchBox(PageSearch.java:41)
-	at PageRunner.PageSearchRunner.SearchData(PageSearchRunner.java:17)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Pages.PageSearch.cartPayment(PageSearch.java:156)
+	at Pages.PageSearch.ShopbyDepartment(PageSearch.java:120)
+	at PageRunner.PageSearchRunner.AddToCart(PageSearchRunner.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
@@ -252,21 +206,14 @@ Session ID: 0c9a3da8e586e20d8034095d2f5b9015
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">PageRunner.LoginRunner</span>
+              <span class="class-name">PageRunner.PageSearchRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginPage">
-                  </a> <!-- loginPage -->
-                  <span class="method-name">loginPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validLoginDetails">
-                  </a> <!-- validLoginDetails -->
-                  <span class="method-name">validLoginDetails</span>
+                  <a name="SearchData">
+                  </a> <!-- SearchData -->
+                  <span class="method-name">SearchData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -284,7 +231,6 @@ Session ID: 0c9a3da8e586e20d8034095d2f5b9015
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;PageRunner.SiteNavigationRunner&quot;/&gt;
-      &lt;class name=&quot;PageRunner.LoginRunner&quot;/&gt;
       &lt;class name=&quot;PageRunner.PageSearchRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -299,7 +245,7 @@ Session ID: 0c9a3da8e586e20d8034095d2f5b9015
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -325,36 +271,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'survey_window')
-data.setCell(0, 2, 'PageRunner.SiteNavigationRunner')
-data.setCell(0, 3, 30279);
+data.setCell(0, 1, 'AddToCart')
+data.setCell(0, 2, 'PageRunner.PageSearchRunner')
+data.setCell(0, 3, 60104);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'AddToCart')
-data.setCell(1, 2, 'PageRunner.PageSearchRunner')
-data.setCell(1, 3, 22058);
+data.setCell(1, 1, 'survey_window')
+data.setCell(1, 2, 'PageRunner.SiteNavigationRunner')
+data.setCell(1, 3, 30140);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'SearchData')
-data.setCell(2, 2, 'PageRunner.PageSearchRunner')
-data.setCell(2, 3, 20092);
+data.setCell(2, 1, 'CheckCountry')
+data.setCell(2, 2, 'PageRunner.SiteNavigationRunner')
+data.setCell(2, 3, 17815);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginPage')
-data.setCell(3, 2, 'PageRunner.LoginRunner')
-data.setCell(3, 3, 16088);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'CheckCountry')
-data.setCell(4, 2, 'PageRunner.SiteNavigationRunner')
-data.setCell(4, 3, 11424);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validLoginDetails')
-data.setCell(5, 2, 'PageRunner.LoginRunner')
-data.setCell(5, 3, 9307);
+data.setCell(3, 1, 'SearchData')
+data.setCell(3, 2, 'PageRunner.PageSearchRunner')
+data.setCell(3, 3, 14480);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -369,24 +307,15 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">PageRunner.PageSearchRunner</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">setUp</span>
-                <br/>
                 <span class="ignored-method-name">closeDriverObjects</span>
                 <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">PageRunner.LoginRunner</span>
-              <div class="ignored-methods-div">
                 <span class="ignored-method-name">setUp</span>
-                <br/>
-                <span class="ignored-method-name">closeDriverObjects</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -405,72 +334,51 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">test</span>
-                <span class="method-start">10533 ms</span>
+                <span class="method-start">6150 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">CheckCountry</span>
-                <span class="method-start">15908 ms</span>
+                <span class="method-start">8181 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenShot([TestResult name=CheckCountry status=SUCCESS method=SiteNavigationRunner.CheckCountry()[pri:1, insta...)</span>
-                <span class="method-start">27340 ms</span>
+                <span class="method-start">26005 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">survey_window</span>
-                <span class="method-start">27357 ms</span>
+                <span class="method-start">26024 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenShot([TestResult name=survey_window status=SUCCESS method=SiteNavigationRunner.survey_window()[pri:1, ins...)</span>
-                <span class="method-start">57640 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">PageRunner.LoginRunner</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginPage</span>
-                <span class="method-start">57643 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">screenShot([TestResult name=loginPage status=SUCCESS method=LoginRunner.loginPage()[pri:0, instance:PageRunner....)</span>
-                <span class="method-start">73736 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">validLoginDetails</span>
-                <span class="method-start">73740 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">screenShot([TestResult name=validLoginDetails status=SUCCESS method=LoginRunner.validLoginDetails()[pri:0, inst...)</span>
-                <span class="method-start">83050 ms</span>
+                <span class="method-start">56174 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PageRunner.PageSearchRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SearchData</span>
-                <span class="method-start">83052 ms</span>
+                <span class="method-start">56179 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">screenShot([TestResult name=SearchData status=FAILURE method=PageSearchRunner.SearchData()[pri:1, instance:Page...)</span>
-                <span class="method-start">103150 ms</span>
+                <span class="method-name">screenShot([TestResult name=SearchData status=SUCCESS method=PageSearchRunner.SearchData()[pri:1, instance:Page...)</span>
+                <span class="method-start">70667 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">AddToCart</span>
-                <span class="method-start">103352 ms</span>
+                <span class="method-start">70671 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenShot([TestResult name=AddToCart status=FAILURE method=PageSearchRunner.AddToCart()[pri:2, instance:PageRu...)</span>
-                <span class="method-start">125415 ms</span>
+                <span class="method-start">130782 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PageRunner.SiteNavigationRunner</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">closeDriverObjects</span>
-                <span class="method-start">125793 ms</span>
+                <span class="method-start">131331 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

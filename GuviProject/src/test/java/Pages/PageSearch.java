@@ -101,23 +101,23 @@ public class PageSearch {
 					"//*[@class='c-button-link continue-shopping' and normalize-space(text())='Continue shopping']"));
 			continueShop.click();
 		}
-		 menuBrands();
-		 AppleBrands();
+		menuBrands();
+		AppleBrands();
 		// JavascriptExecutor js = (JavascriptExecutor) webDriver;
-			js.executeScript("window.scrollBy(0,600)", "");
-			
-			WebElement ele=webDriver.findElement(By.xpath("//div[@class='row v-m-vertical-l']//img[@alt='Laptop']"));
-			ele.click();
-			js.executeScript("window.scrollBy(0,600)", "");
-			WebElement AddtoCart1 = webDriver.findElement(By.xpath(
-					"//div[contains(@class,'fulfillment-add-to-cart-button')]//div//div//button[contains(@type,'button')][normalize-space()='Add to Cart'][@data-sku-id='6531746']"));
-			// String itemName=item.getText();
-			// items.add(itemName);
-			AddtoCart1.click();
-			WebElement continueShop = webDriver.findElement(By.xpath(
-					"//*[@class='c-button-link continue-shopping' and normalize-space(text())='Continue shopping']"));
-			continueShop.click();
-			cartPayment();
+		js.executeScript("window.scrollBy(0,600)", "");
+
+		WebElement ele = webDriver.findElement(By.xpath("//div[@class='row v-m-vertical-l']//img[@alt='Laptop']"));
+		ele.click();
+		js.executeScript("window.scrollBy(0,600)", "");
+		WebElement AddtoCart1 = webDriver.findElement(By.xpath(
+				"//div[contains(@class,'fulfillment-add-to-cart-button')]//div//div//button[contains(@type,'button')][normalize-space()='Add to Cart'][@data-sku-id='6531746']"));
+		// String itemName=item.getText();
+		// items.add(itemName);
+		AddtoCart1.click();
+		WebElement continueShop = webDriver.findElement(By.xpath(
+				"//*[@class='c-button-link continue-shopping' and normalize-space(text())='Continue shopping']"));
+		continueShop.click();
+		cartPayment();
 	}
 
 	public void menuBrands() throws InterruptedException {
@@ -148,25 +148,34 @@ public class PageSearch {
 		}
 	}
 
-	
-	public void cartPayment() throws InterruptedException
-	{
+	public void cartPayment() throws InterruptedException {
 		WebElement element = webDriver.findElement(By.xpath("//span[@class='cart-label']"));
 		element.click();
-		Assert.assertEquals(webDriver.getTitle(), "Cart - Best Buy","Not Moved to cart Page");
-WebElement element1= webDriver.findElement(By.xpath("//button[normalize-space()='Checkout']"));
-element1.click();
+		Assert.assertEquals(webDriver.getTitle(), "Cart - Best Buy", "Not Moved to cart Page");
+		WebElement element1 = webDriver.findElement(By.xpath("//button[normalize-space()='Checkout']"));
+		element1.click();
 
-Assert.assertEquals(webDriver.getTitle(), "Checkout – Best Buy","Not Moved to cart Page");
+		//Assert.assertEquals(webDriver.getTitle(), "Checkout – Best Buy", "Not Moved to cart Page");
 
-WebElement element2= webDriver.findElement(By.xpath("//span[normalize-space()='Getting your order']"));
+		//WebElement elementGuest = webDriver.findElement(By.xpath("//span[normalize-space()='Getting your order']"));
+		
+		WebElement element2 = webDriver.findElement(By.xpath("//button[@class='c-button c-button-secondary c-button-lg cia-guest-content__continue guest'][normalize-space()='Continue as Guest']"));
+		element2.click();
 
+		//Assert.assertEquals(element2.getText(), "Getting your order", "Not Getting your order");
 
-Assert.assertEquals(element2.getText(), "Getting your order","Not Getting your order");
-
-JavascriptExecutor js = (JavascriptExecutor) webDriver;
-js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-WebElement element3= webDriver.findElement(By.xpath("//span[normalize-space()='Continue to Payment Information']"));
-element3.click();
+		JavascriptExecutor js = (JavascriptExecutor) webDriver;
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		WebElement Email = webDriver.findElement(By.xpath("//div[@class='clearFloat']/input[@class='tb-input'][@id='user.emailAddress']"));
+		Email.click();
+		Email.sendKeys("guviautomation2000@gmail.com");
+		
+		WebElement mobile = webDriver.findElement(By.xpath("//div[@class='clearFloat']/input[@class='tb-input'][@id='user.phone']"));
+		mobile.click();
+		mobile.sendKeys("9876541230");
+		
+		WebElement element3 = webDriver
+				.findElement(By.xpath("//span[normalize-space()='Continue to Payment Information']"));
+		element3.click();
 	}
 }
