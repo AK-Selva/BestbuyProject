@@ -13,13 +13,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.TakesScreenshot;
 import org.apache.commons.io.FileUtils;
 
 import org.openqa.selenium.chrome.ChromeOptions;
 public class BrowserSetup {
+public	String homePage = "https://www.bestbuy.com/";
 	public static WebDriver webDriver;
 	@BeforeTest
 	public  void setUp() throws IOException{

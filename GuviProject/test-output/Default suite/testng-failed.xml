@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PageRunner.SignupRunner">
+      <class name="PageRunner.HomePageNavigationrunner">
         <methods>
           <include name="screenShot"/>
           <include name="closeDriverObjects"/>
-          <include name="ValidateAllFields"/>
           <include name="setUp"/>
+          <include name="HomePageMenuLinks"/>
         </methods>
-      </class> <!-- PageRunner.SignupRunner -->
+      </class> <!-- PageRunner.HomePageNavigationrunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

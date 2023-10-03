@@ -17,8 +17,8 @@ public class SignupRunner extends BrowserSetup {
 	String ValidationTitle = "Create an Account";
 
 	public void basicInfo() {
-		String emailUserAcc = "testautouser" + generateRandomNumber(1000, 9999);
-		email = emailUserAcc + "@test.com";
+		String emailUserAcc = "guviautomation2" + generateRandomNumber(1000, 9999);
+		email = emailUserAcc + "@mailinator.com";
 		password = generateRandomPassword(12);
 		mobile = String.valueOf(generateRandomNumber(1000000000L, 9999999999L));
 	}
@@ -111,6 +111,10 @@ public class SignupRunner extends BrowserSetup {
 		// after logging with valid email
 		int count = signup.getErrorCount();
 		// System.out.println(count);
+		boolean exists = signup.AlreadyExistsVisible();
+		if(exists)
+			Assert.fail();
+		else
 		Assert.assertEquals(count, 0, "Error Count not matching");
 	}
 }

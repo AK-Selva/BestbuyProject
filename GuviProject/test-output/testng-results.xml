@@ -1,194 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-02T22:34:50 IST" name="Suite" finished-at="2023-10-02T22:37:06 IST" duration-ms="136391">
+  <suite started-at="2023-10-03T15:53:14 IST" name="Suite" finished-at="2023-10-03T15:55:19 IST" duration-ms="125656">
     <groups>
     </groups>
-    <test started-at="2023-10-02T22:34:50 IST" name="Test" finished-at="2023-10-02T22:37:06 IST" duration-ms="136391">
-      <class name="PageRunner.AccountCreationRunner">
-        <test-method signature="clickAccountCreation()[pri:0, instance:PageRunner.AccountCreationRunner@235ecd9f]" started-at="2023-10-02T22:35:42 IST" name="clickAccountCreation" finished-at="2023-10-02T22:35:43 IST" duration-ms="906" status="PASS">
+    <test started-at="2023-10-03T15:53:14 IST" name="Test" finished-at="2023-10-03T15:55:19 IST" duration-ms="125656">
+      <class name="PageRunner.LoginRunner">
+        <test-method signature="loginPage()[pri:0, instance:PageRunner.LoginRunner@3e8c3cb]" started-at="2023-10-03T15:54:11 IST" name="loginPage" finished-at="2023-10-03T15:54:27 IST" duration-ms="16088" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickAccountCreation -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.AccountCreationRunner@235ecd9f]" started-at="2023-10-02T22:35:43 IST" name="screenShot" finished-at="2023-10-02T22:35:43 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.LoginRunner@3e8c3cb]" started-at="2023-10-03T15:54:27 IST" name="screenShot" finished-at="2023-10-03T15:54:27 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickAccountCreation status=SUCCESS method=AccountCreationRunner.clickAccountCreation()[pri:0, instance:PageRunner.AccountCreationRunner@235ecd9f] output={null}]]]>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=LoginRunner.loginPage()[pri:0, instance:PageRunner.LoginRunner@3e8c3cb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method signature="validateAccountPopup()[pri:0, instance:PageRunner.AccountCreationRunner@235ecd9f]" started-at="2023-10-02T22:35:43 IST" name="validateAccountPopup" finished-at="2023-10-02T22:35:50 IST" duration-ms="7157" status="PASS">
+        <test-method signature="validLoginDetails()[pri:0, instance:PageRunner.LoginRunner@3e8c3cb]" started-at="2023-10-03T15:54:27 IST" name="validLoginDetails" finished-at="2023-10-03T15:54:37 IST" duration-ms="9307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAccountPopup -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.AccountCreationRunner@235ecd9f]" started-at="2023-10-02T22:35:50 IST" name="screenShot" finished-at="2023-10-02T22:35:50 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- validLoginDetails -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.LoginRunner@3e8c3cb]" started-at="2023-10-03T15:54:37 IST" name="screenShot" finished-at="2023-10-03T15:54:37 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateAccountPopup status=SUCCESS method=AccountCreationRunner.validateAccountPopup()[pri:0, instance:PageRunner.AccountCreationRunner@235ecd9f] output={null}]]]>
+                <![CDATA[[TestResult name=validLoginDetails status=SUCCESS method=LoginRunner.validLoginDetails()[pri:0, instance:PageRunner.LoginRunner@3e8c3cb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-      </class> <!-- PageRunner.AccountCreationRunner -->
+      </class> <!-- PageRunner.LoginRunner -->
       <class name="PageRunner.SiteNavigationRunner">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:PageRunner.SiteNavigationRunner@3e8c3cb]" started-at="2023-10-02T22:34:50 IST" name="setUp" finished-at="2023-10-02T22:34:55 IST" duration-ms="5271" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PageRunner.SiteNavigationRunner@25ce9dc4]" started-at="2023-10-03T15:53:14 IST" name="setUp" finished-at="2023-10-03T15:53:24 IST" duration-ms="10531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="test()[pri:0, instance:PageRunner.SiteNavigationRunner@3e8c3cb]" started-at="2023-10-02T22:34:55 IST" name="test" finished-at="2023-10-02T22:34:57 IST" depends-on-methods="DriverSetup.BrowserSetup.setUp" duration-ms="1699" status="PASS">
+        <test-method is-config="true" signature="test()[pri:0, instance:PageRunner.SiteNavigationRunner@25ce9dc4]" started-at="2023-10-03T15:53:24 IST" name="test" finished-at="2023-10-03T15:53:29 IST" depends-on-methods="DriverSetup.BrowserSetup.setUp" duration-ms="5172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method signature="CheckCountry()[pri:1, instance:PageRunner.SiteNavigationRunner@3e8c3cb]" started-at="2023-10-02T22:34:57 IST" name="CheckCountry" finished-at="2023-10-02T22:35:12 IST" duration-ms="15074" status="PASS">
+        <test-method signature="CheckCountry()[pri:1, instance:PageRunner.SiteNavigationRunner@25ce9dc4]" started-at="2023-10-03T15:53:30 IST" name="CheckCountry" finished-at="2023-10-03T15:53:41 IST" duration-ms="11424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckCountry -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SiteNavigationRunner@3e8c3cb]" started-at="2023-10-02T22:35:12 IST" name="screenShot" finished-at="2023-10-02T22:35:12 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SiteNavigationRunner@25ce9dc4]" started-at="2023-10-03T15:53:41 IST" name="screenShot" finished-at="2023-10-03T15:53:41 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CheckCountry status=SUCCESS method=SiteNavigationRunner.CheckCountry()[pri:1, instance:PageRunner.SiteNavigationRunner@3e8c3cb] output={null}]]]>
+                <![CDATA[[TestResult name=CheckCountry status=SUCCESS method=SiteNavigationRunner.CheckCountry()[pri:1, instance:PageRunner.SiteNavigationRunner@25ce9dc4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method signature="survey_window()[pri:1, instance:PageRunner.SiteNavigationRunner@3e8c3cb]" started-at="2023-10-02T22:35:12 IST" name="survey_window" finished-at="2023-10-02T22:35:42 IST" duration-ms="30057" status="PASS">
+        <test-method signature="survey_window()[pri:1, instance:PageRunner.SiteNavigationRunner@25ce9dc4]" started-at="2023-10-03T15:53:41 IST" name="survey_window" finished-at="2023-10-03T15:54:11 IST" duration-ms="30279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- survey_window -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SiteNavigationRunner@3e8c3cb]" started-at="2023-10-02T22:35:42 IST" name="screenShot" finished-at="2023-10-02T22:35:42 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SiteNavigationRunner@25ce9dc4]" started-at="2023-10-03T15:54:11 IST" name="screenShot" finished-at="2023-10-03T15:54:11 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=survey_window status=SUCCESS method=SiteNavigationRunner.survey_window()[pri:1, instance:PageRunner.SiteNavigationRunner@3e8c3cb] output={null}]]]>
+                <![CDATA[[TestResult name=survey_window status=SUCCESS method=SiteNavigationRunner.survey_window()[pri:1, instance:PageRunner.SiteNavigationRunner@25ce9dc4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method is-config="true" signature="closeDriverObjects()[pri:0, instance:PageRunner.SiteNavigationRunner@3e8c3cb]" started-at="2023-10-02T22:37:06 IST" name="closeDriverObjects" finished-at="2023-10-02T22:37:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDriverObjects()[pri:0, instance:PageRunner.SiteNavigationRunner@25ce9dc4]" started-at="2023-10-03T15:55:20 IST" name="closeDriverObjects" finished-at="2023-10-03T15:55:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->
       </class> <!-- PageRunner.SiteNavigationRunner -->
-      <class name="PageRunner.SignupRunner">
-        <test-method signature="SignUpValidation()[pri:1, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:35:50 IST" name="SignUpValidation" finished-at="2023-10-02T22:35:51 IST" duration-ms="398" status="PASS">
+      <class name="PageRunner.PageSearchRunner">
+        <test-method signature="SearchData()[pri:1, instance:PageRunner.PageSearchRunner@563f38c4]" started-at="2023-10-03T15:54:37 IST" name="SearchData" finished-at="2023-10-03T15:54:57 IST" duration-ms="20092" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='gh-search-input']"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c9a3da8e586e20d8034095d2f5b9015, findElement {using=xpath, value=//input[@id='gh-search-input']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51441/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c9a3da8e586e20d8034095d2f5b9015]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='gh-search-input']"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c9a3da8e586e20d8034095d2f5b9015, findElement {using=xpath, value=//input[@id='gh-search-input']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51441/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c9a3da8e586e20d8034095d2f5b9015
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at Pages.PageSearch.SearchBox(PageSearch.java:41)
+at PageRunner.PageSearchRunner.SearchData(PageSearchRunner.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignUpValidation -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:35:51 IST" name="screenShot" finished-at="2023-10-02T22:35:51 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- SearchData -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.PageSearchRunner@563f38c4]" started-at="2023-10-03T15:54:57 IST" name="screenShot" finished-at="2023-10-03T15:54:57 IST" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SignUpValidation status=SUCCESS method=SignupRunner.SignUpValidation()[pri:1, instance:PageRunner.SignupRunner@1ca3b418] output={null}]]]>
+                <![CDATA[[TestResult name=SearchData status=FAILURE method=PageSearchRunner.SearchData()[pri:1, instance:PageRunner.PageSearchRunner@563f38c4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method signature="blankRegistration()[pri:2, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:35:51 IST" name="blankRegistration" description="User press register button without inputting any data" finished-at="2023-10-02T22:35:52 IST" duration-ms="1397" status="PASS">
+        <test-method signature="AddToCart()[pri:2, instance:PageRunner.PageSearchRunner@563f38c4]" started-at="2023-10-03T15:54:57 IST" name="AddToCart" finished-at="2023-10-03T15:55:19 IST" duration-ms="22058" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'fulfillment-add-to-cart-button')]//div//div//button[contains(@type,'button')][normalize-space()='Add to Cart'][@data-sku-id='6539910']"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c9a3da8e586e20d8034095d2f5b9015, findElement {using=xpath, value=//div[contains(@class,'fulfillment-add-to-cart-button')]//div//div//button[contains(@type,'button')][normalize-space()='Add to Cart'][@data-sku-id='6539910']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51441/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c9a3da8e586e20d8034095d2f5b9015]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'fulfillment-add-to-cart-button')]//div//div//button[contains(@type,'button')][normalize-space()='Add to Cart'][@data-sku-id='6539910']"}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c9a3da8e586e20d8034095d2f5b9015, findElement {using=xpath, value=//div[contains(@class,'fulfillment-add-to-cart-button')]//div//div//button[contains(@type,'button')][normalize-space()='Add to Cart'][@data-sku-id='6539910']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51441/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c9a3da8e586e20d8034095d2f5b9015
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at Pages.PageSearch.AddToCart(PageSearch.java:63)
+at PageRunner.PageSearchRunner.AddToCart(PageSearchRunner.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- blankRegistration -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:35:52 IST" name="screenShot" finished-at="2023-10-02T22:35:52 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.PageSearchRunner@563f38c4]" started-at="2023-10-03T15:55:19 IST" name="screenShot" finished-at="2023-10-03T15:55:19 IST" duration-ms="215" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=blankRegistration status=SUCCESS method=SignupRunner.blankRegistration()[pri:2, instance:PageRunner.SignupRunner@1ca3b418] output={null}]]]>
+                <![CDATA[[TestResult name=AddToCart status=FAILURE method=PageSearchRunner.AddToCart()[pri:2, instance:PageRunner.PageSearchRunner@563f38c4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method signature="invalidFirstName()[pri:3, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:35:52 IST" name="invalidFirstName" description="Firstname cannot include any digit at last" finished-at="2023-10-02T22:35:58 IST" duration-ms="5551" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidFirstName -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:35:58 IST" name="screenShot" finished-at="2023-10-02T22:35:58 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=invalidFirstName status=SUCCESS method=SignupRunner.invalidFirstName()[pri:3, instance:PageRunner.SignupRunner@1ca3b418] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method signature="invalidLastName()[pri:4, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:35:58 IST" name="invalidLastName" description="Lastname cannot include any digit at last" finished-at="2023-10-02T22:36:07 IST" duration-ms="9403" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLastName -->
-        <test-method signature="validEmailandRegisterForm()[pri:5, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:36:07 IST" name="validEmailandRegisterForm" description="After giving valid email No  Error Message" finished-at="2023-10-02T22:36:12 IST" duration-ms="5428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validEmailandRegisterForm -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:36:07 IST" name="screenShot" finished-at="2023-10-02T22:36:07 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=invalidLastName status=SUCCESS method=SignupRunner.invalidLastName()[pri:4, instance:PageRunner.SignupRunner@1ca3b418] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:36:12 IST" name="screenShot" finished-at="2023-10-02T22:36:12 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validEmailandRegisterForm status=SUCCESS method=SignupRunner.validEmailandRegisterForm()[pri:5, instance:PageRunner.SignupRunner@1ca3b418] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method signature="validFnamelNameEmailandRegisterForm()[pri:6, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:36:12 IST" name="validFnamelNameEmailandRegisterForm" description="Valid FName,Lname and email No  Error Message" finished-at="2023-10-02T22:36:21 IST" duration-ms="8508" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validFnamelNameEmailandRegisterForm -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:36:21 IST" name="screenShot" finished-at="2023-10-02T22:36:21 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validFnamelNameEmailandRegisterForm status=SUCCESS method=SignupRunner.validFnamelNameEmailandRegisterForm()[pri:6, instance:PageRunner.SignupRunner@1ca3b418] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method signature="ValidateAllFields()[pri:7, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:36:21 IST" name="ValidateAllFields" description="No  Error Message all fieled are added" finished-at="2023-10-02T22:37:06 IST" duration-ms="45302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateAllFields -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@1ca3b418]" started-at="2023-10-02T22:37:06 IST" name="screenShot" finished-at="2023-10-02T22:37:06 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidateAllFields status=SUCCESS method=SignupRunner.ValidateAllFields()[pri:7, instance:PageRunner.SignupRunner@1ca3b418] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-      </class> <!-- PageRunner.SignupRunner -->
+      </class> <!-- PageRunner.PageSearchRunner -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

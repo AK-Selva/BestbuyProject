@@ -116,25 +116,25 @@ public class Signup {
 	}
 
 	public void validAllFields(String email,String pwd,String cpwd,String mobile)throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		firstNameTextBox.click();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		firstNameTextBox.sendKeys("firstname");
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		lastNameTextBox.click();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		lastNameTextBox.sendKeys("lastname");
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		emailTextBox.clear();
 		emailTextBox.sendKeys(email);
 		// this.email = email;
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		pwdTextBox.click();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		pwdTextBox.sendKeys(pwd);
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		reenterPasswordTextBox.click();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		reenterPasswordTextBox.sendKeys(pwd);
 		validmobilenumber(mobile);
 	}
@@ -175,5 +175,12 @@ public class Signup {
 		phoneTextBox.sendKeys(mobile);
 		clickCreateAccountButton();
 		Thread.sleep(1200);
+	}
+	public boolean AlreadyExistsVisible()
+	{
+		WebElement element= webDriver.findElement(By.xpath("//strong[contains(text(),'An account with this email already exists.')]"));
+		if(element.isDisplayed())
+			return true;
+		return false;
 	}
 }

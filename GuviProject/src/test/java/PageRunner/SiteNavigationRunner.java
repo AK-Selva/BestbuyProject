@@ -10,7 +10,7 @@ import Pages.*;
 public class SiteNavigationRunner extends BrowserSetup {
 	public String firstPageTitle = "Best Buy International: Select your Country - Best Buy";
 	public String pageTitle = "Best Buy | Official Online Store | Shop Now & Save";
-	String homePage = "https://www.bestbuy.com/";
+
 	// public static WebDriver driver;
 	SiteNavigation siteNavigation=null;
 	@BeforeTest

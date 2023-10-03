@@ -47,7 +47,7 @@ public class SiteNavigation  {
 	public boolean survey_window() throws IOException
 	{
 		
-		if (survey_window.isDisplayed()) {
+		if (survey_window.isEnabled()) {
 			survey_invite_no.click();
 			return true;
 		}

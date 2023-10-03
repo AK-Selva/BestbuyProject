@@ -26,7 +26,7 @@ public class AccountCreationRunner extends BrowserSetup {
 //		account.click();
 		creation = new AccountCreation(webDriver);
 		boolean accCreation=creation.clickAccountCreation();
-		Thread.sleep(500);
+		//Thread.sleep(500);
 		//boolean AccountCreationVisibility=creation.AccountCreationVisibility();
 		if (accCreation) {
 //			Assert.assertEquals(pageTitle, webDriver.getTitle(), "The Title of the page does not match");

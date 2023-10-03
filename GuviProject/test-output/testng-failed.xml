@@ -3,14 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="PageRunner.SignupRunner">
+      <class name="PageRunner.PageSearchRunner">
         <methods>
           <include name="screenShot"/>
           <include name="closeDriverObjects"/>
-          <include name="ValidateAllFields"/>
+          <include name="AddToCart"/>
+          <include name="SearchData"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- PageRunner.SignupRunner -->
+      </class> <!-- PageRunner.PageSearchRunner -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
