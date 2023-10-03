@@ -22,7 +22,7 @@ public class PageSearchRunner extends BrowserSetup{
 	{
 		page=new  PageSearch(webDriver);
 		List<String> Items = new ArrayList<>();
-		int count=Items.size();
+	//	int count=Items.size();
 		Items=page.AddToCart(Items);
 //		int countadded= Items.size();
 //		if(countadded>count)
