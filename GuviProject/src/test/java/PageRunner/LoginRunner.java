@@ -22,7 +22,7 @@ public class LoginRunner extends BrowserSetup {
 	public void validLoginDetails() throws InterruptedException {
 		Login s = new Login(webDriver);
 		String url = s.validLoginDetails();
-		if (url.equals("Sign In to Best Buy")) {
+		if (url.equals("Best Buy | Official Online Store | Shop Now & Save")) {
 			Assert.assertTrue(true);
 			System.out.println("signin Success");
 		} else

@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">131,264</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">1,280,948</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">PageRunner.PageSearchRunner</td><td><a href="#m0">AddToCart</a></td><td rowspan="1">1696331605019</td><td rowspan="1">60104</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">PageRunner.PageSearchRunner</td><td><a href="#m1">SearchData</a></td><td rowspan="1">1696331590527</td><td rowspan="1">14480</td></tr><tr class="passedodd"><td rowspan="2">PageRunner.SiteNavigationRunner</td><td><a href="#m2">CheckCountry</a></td><td rowspan="1">1696331542529</td><td rowspan="1">17815</td></tr><tr class="passedodd"><td><a href="#m3">survey_window</a></td><td rowspan="1">1696331560372</td><td rowspan="1">30140</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">PageRunner.PageSearchRunner</td><td><a href="#m0">AddToCart</a></td><td rowspan="1">1696438537845</td><td rowspan="1">22160</td></tr><tr class="failedeven"><td><a href="#m1">SearchData</a></td><td rowspan="1">1696438517549</td><td rowspan="1">20054</td></tr><tr class="failedodd"><td rowspan="1">PageRunner.SignupRunner</td><td><a href="#m2">ValidateAllFields</a></td><td rowspan="1">1696437365221</td><td rowspan="1">81136</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">PageRunner.AccountCreationRunner</td><td><a href="#m3">clickAccountCreation</a></td><td rowspan="1">1696437329074</td><td rowspan="1">625</td></tr><tr class="passedeven"><td><a href="#m4">validateAccountPopup</a></td><td rowspan="1">1696437329715</td><td rowspan="1">5185</td></tr><tr class="passedodd"><td rowspan="2">PageRunner.LoginRunner</td><td><a href="#m5">loginPage</a></td><td rowspan="1">1696437446589</td><td rowspan="1">22705</td></tr><tr class="passedodd"><td><a href="#m6">validLoginDetails</a></td><td rowspan="1">1696437469303</td><td rowspan="1">1048238</td></tr><tr class="passedeven"><td rowspan="6">PageRunner.SignupRunner</td><td><a href="#m7">SignUpValidation</a></td><td rowspan="1">1696437334908</td><td rowspan="1">2663</td></tr><tr class="passedeven"><td><a href="#m8">blankRegistration</a></td><td rowspan="1">1696437337580</td><td rowspan="1">1049</td></tr><tr class="passedeven"><td><a href="#m9">invalidFirstName</a></td><td rowspan="1">1696437338645</td><td rowspan="1">6379</td></tr><tr class="passedeven"><td><a href="#m10">invalidLastName</a></td><td rowspan="1">1696437345032</td><td rowspan="1">5870</td></tr><tr class="passedeven"><td><a href="#m11">validEmailandRegisterForm</a></td><td rowspan="1">1696437350909</td><td rowspan="1">5206</td></tr><tr class="passedeven"><td><a href="#m12">validFnamelNameEmailandRegisterForm</a></td><td rowspan="1">1696437356119</td><td rowspan="1">9085</td></tr><tr class="passedodd"><td rowspan="2">PageRunner.SiteNavigationRunner</td><td><a href="#m13">CheckCountry</a></td><td rowspan="1">1696437285948</td><td rowspan="1">12956</td></tr><tr class="passedodd"><td><a href="#m14">survey_window</a></td><td rowspan="1">1696437298948</td><td rowspan="1">30114</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">PageRunner.PageSearchRunner#AddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot; data-track=&quot;... - Top&quot;&gt;Checkout&lt;/button&gt; is not clickable at point (1151, 419). Other element would receive the click: &lt;div class=&quot;row&quot;&gt;...&lt;/div&gt;
+<h2>Test</h2><h3 id="m0">PageRunner.PageSearchRunner#AddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;fulfillment-add-to-cart-button&apos;)]//div//div//button[contains(@type,&apos;button&apos;)][normalize-space()=&apos;Add to Cart&apos;][@data-sku-id=&apos;6539910&apos;]&quot;}
   (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b778eb205f715a15eea09419baad9667, clickElement {id=F1A89B435C6450D36D9221432982FA41_element_425}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59581/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b778eb205f715a15eea09419baad9667)] -&gt; xpath: //button[normalize-space()=&apos;Checkout&apos;]]
-Session ID: b778eb205f715a15eea09419baad9667
+Command: [9d4ba2b3d1b97c6f13b27e8ea061444d, findElement {using=xpath, value=//div[contains(@class,&apos;fulfillment-add-to-cart-button&apos;)]//div//div//button[contains(@type,&apos;button&apos;)][normalize-space()=&apos;Add to Cart&apos;][@data-sku-id=&apos;6539910&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60091}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60091/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d4ba2b3d1b97c6f13b27e8ea061444d
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -29,15 +29,56 @@ Session ID: b778eb205f715a15eea09419baad9667
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at Pages.PageSearch.cartPayment(PageSearch.java:156)
-	at Pages.PageSearch.ShopbyDepartment(PageSearch.java:120)
-	at PageRunner.PageSearchRunner.AddToCart(PageSearchRunner.java:31)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at Pages.PageSearch.AddToCart(PageSearch.java:63)
+	at PageRunner.PageSearchRunner.AddToCart(PageSearchRunner.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">PageRunner.PageSearchRunner#SearchData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">PageRunner.SiteNavigationRunner#CheckCountry</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">PageRunner.SiteNavigationRunner#survey_window</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">PageRunner.PageSearchRunner#SearchData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;gh-search-input&apos;]&quot;}
+  (Session info: chrome=117.0.5938.132)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d4ba2b3d1b97c6f13b27e8ea061444d, findElement {using=xpath, value=//input[@id=&apos;gh-search-input&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60091}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60091/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d4ba2b3d1b97c6f13b27e8ea061444d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at Pages.PageSearch.SearchBox(PageSearch.java:41)
+	at PageRunner.PageSearchRunner.SearchData(PageSearchRunner.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">PageRunner.SignupRunner#ValidateAllFields</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at PageRunner.SignupRunner.ValidateAllFields(SignupRunner.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">PageRunner.AccountCreationRunner#clickAccountCreation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">PageRunner.AccountCreationRunner#validateAccountPopup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">PageRunner.LoginRunner#loginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">PageRunner.LoginRunner#validLoginDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">PageRunner.SignupRunner#SignUpValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">PageRunner.SignupRunner#blankRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">PageRunner.SignupRunner#invalidFirstName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">PageRunner.SignupRunner#invalidLastName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">PageRunner.SignupRunner#validEmailandRegisterForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">PageRunner.SignupRunner#validFnamelNameEmailandRegisterForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">PageRunner.SiteNavigationRunner#CheckCountry</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">PageRunner.SiteNavigationRunner#survey_window</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
