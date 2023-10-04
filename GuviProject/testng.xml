@@ -4,12 +4,13 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="PageRunner.SiteNavigationRunner" />
-			<!--<class name="PageRunner.AccountCreationRunner" />-->
-			<!--<class name="PageRunner.SignupRunner" />-->
-			<!--<class name="PageRunner.LoginRunner" />-->
-			<!--<class name="PageRunner.HomePageNavigationrunner" />-->
-			<!--<class name="PageRunner.SignOutRunner" />-->
+			<class name="PageRunner.AccountCreationRunner" />
+			<class name="PageRunner.SignupRunner" />
+			<class name="PageRunner.LoginRunner" />
+			<class name="PageRunner.HomePageNavigationrunner" />
 			<class name="PageRunner.PageSearchRunner" />
+			<!--<class name="PageRunner.SignOutRunner" />-->
+			
 		</classes>
 	</test> <!--
 	Test -->

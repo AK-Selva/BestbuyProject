@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 03 16:42:14 IST 2023</td>
+<td>Started on:</td><td>Tue Oct 03 18:30:34 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>131 seconds (131264 ms)</td>
+<tr><td>Total time:</td><td>645 seconds (645295 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,54 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='PageRunner.PageSearchRunner.AddToCart()'><b>AddToCart</b><br>Test class: PageRunner.PageSearchRunner</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot; data-track=&quot;... - Top&quot;&gt;Checkout&lt;/button&gt; is not clickable at point (1151, 419). Other element would receive the click: &lt;div class=&quot;row&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=117.0.5938.132)
-Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b778eb205f715a15eea09419baad9667, clickElement {id=F1A89B435C6450D36D9221432982FA41_element_425}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59581/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b778eb205f715a15eea09419baad9667)] -&gt; xpath: //button[normalize-space()=&apos;Checkout&apos;]]
-Session ID: b778eb205f715a15eea09419baad9667
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at Pages.PageSearch.cartPayment(PageSearch.java:156)
-	at Pages.PageSearch.ShopbyDepartment(PageSearch.java:120)
-	at PageRunner.PageSearchRunner.AddToCart(PageSearchRunner.java:31)
+<td title='PageRunner.SignupRunner.ValidateAllFields()'><b>ValidateAllFields</b><br>Test class: PageRunner.SignupRunner<br>Test method: No  Error Message all fieled are added</td>
+<td><div><pre>java.lang.AssertionError: null
+	at PageRunner.SignupRunner.ValidateAllFields(SignupRunner.java:116)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1903406683", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1903406683'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot; data-track=&quot;... - Top&quot;&gt;Checkout&lt;/button&gt; is not clickable at point (1151, 419). Other element would receive the click: &lt;div class=&quot;row&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=117.0.5938.132)
-Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b778eb205f715a15eea09419baad9667, clickElement {id=F1A89B435C6450D36D9221432982FA41_element_425}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59581/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b778eb205f715a15eea09419baad9667)] -&gt; xpath: //button[normalize-space()=&apos;Checkout&apos;]]
-Session ID: b778eb205f715a15eea09419baad9667
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at Pages.PageSearch.cartPayment(PageSearch.java:156)
-	at Pages.PageSearch.ShopbyDepartment(PageSearch.java:120)
-	at PageRunner.PageSearchRunner.AddToCart(PageSearchRunner.java:31)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace74735260", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace74735260'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at PageRunner.SignupRunner.ValidateAllFields(SignupRunner.java:116)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -151,8 +112,8 @@ Session ID: b778eb205f715a15eea09419baad9667
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>60</td>
-<td>PageRunner.PageSearchRunner@248e319b</td></tr>
+<td>80</td>
+<td>PageRunner.SignupRunner@74e28667</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -163,20 +124,85 @@ Session ID: b778eb205f715a15eea09419baad9667
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='PageRunner.PageSearchRunner.AddToCart()'><b>AddToCart</b><br>Test class: PageRunner.PageSearchRunner</td>
+<td></td>
+<td>96</td>
+<td>PageRunner.PageSearchRunner@19e4653c</td></tr>
+<tr>
+<td title='PageRunner.SignupRunner.blankRegistration()'><b>blankRegistration</b><br>Test class: PageRunner.SignupRunner<br>Test method: User press register button without inputting any data</td>
+<td></td>
+<td>0</td>
+<td>PageRunner.SignupRunner@74e28667</td></tr>
+<tr>
+<td title='PageRunner.HomePageNavigationrunner.HomePageMenuLinks()'><b>HomePageMenuLinks</b><br>Test class: PageRunner.HomePageNavigationrunner</td>
+<td></td>
+<td>112</td>
+<td>PageRunner.HomePageNavigationrunner@663c9e7a</td></tr>
+<tr>
 <td title='PageRunner.PageSearchRunner.SearchData()'><b>SearchData</b><br>Test class: PageRunner.PageSearchRunner</td>
 <td></td>
-<td>14</td>
-<td>PageRunner.PageSearchRunner@248e319b</td></tr>
+<td>22</td>
+<td>PageRunner.PageSearchRunner@19e4653c</td></tr>
 <tr>
-<td title='PageRunner.SiteNavigationRunner.CheckCountry()'><b>CheckCountry</b><br>Test class: PageRunner.SiteNavigationRunner</td>
+<td title='PageRunner.SignupRunner.invalidFirstName()'><b>invalidFirstName</b><br>Test class: PageRunner.SignupRunner<br>Test method: Firstname cannot include any digit at last</td>
 <td></td>
-<td>17</td>
-<td>PageRunner.SiteNavigationRunner@7674f035</td></tr>
+<td>8</td>
+<td>PageRunner.SignupRunner@74e28667</td></tr>
+<tr>
+<td title='PageRunner.AccountCreationRunner.clickAccountCreation()'><b>clickAccountCreation</b><br>Test class: PageRunner.AccountCreationRunner</td>
+<td></td>
+<td>1</td>
+<td>PageRunner.AccountCreationRunner@7161d8d1</td></tr>
+<tr>
+<td title='PageRunner.SignupRunner.validEmailandRegisterForm()'><b>validEmailandRegisterForm</b><br>Test class: PageRunner.SignupRunner<br>Test method: After giving valid email No  Error Message</td>
+<td></td>
+<td>5</td>
+<td>PageRunner.SignupRunner@74e28667</td></tr>
 <tr>
 <td title='PageRunner.SiteNavigationRunner.survey_window()'><b>survey_window</b><br>Test class: PageRunner.SiteNavigationRunner</td>
 <td></td>
 <td>30</td>
-<td>PageRunner.SiteNavigationRunner@7674f035</td></tr>
+<td>PageRunner.SiteNavigationRunner@7ef82753</td></tr>
+<tr>
+<td title='PageRunner.HomePageNavigationrunner.BottomPageLinks()'><b>BottomPageLinks</b><br>Test class: PageRunner.HomePageNavigationrunner</td>
+<td></td>
+<td>105</td>
+<td>PageRunner.HomePageNavigationrunner@663c9e7a</td></tr>
+<tr>
+<td title='PageRunner.SignupRunner.SignUpValidation()'><b>SignUpValidation</b><br>Test class: PageRunner.SignupRunner</td>
+<td></td>
+<td>0</td>
+<td>PageRunner.SignupRunner@74e28667</td></tr>
+<tr>
+<td title='PageRunner.SignupRunner.invalidLastName()'><b>invalidLastName</b><br>Test class: PageRunner.SignupRunner<br>Test method: Lastname cannot include any digit at last</td>
+<td></td>
+<td>5</td>
+<td>PageRunner.SignupRunner@74e28667</td></tr>
+<tr>
+<td title='PageRunner.LoginRunner.loginPage()'><b>loginPage</b><br>Test class: PageRunner.LoginRunner</td>
+<td></td>
+<td>16</td>
+<td>PageRunner.LoginRunner@1cf6d1be</td></tr>
+<tr>
+<td title='PageRunner.AccountCreationRunner.validateAccountPopup()'><b>validateAccountPopup</b><br>Test class: PageRunner.AccountCreationRunner</td>
+<td></td>
+<td>64</td>
+<td>PageRunner.AccountCreationRunner@7161d8d1</td></tr>
+<tr>
+<td title='PageRunner.SiteNavigationRunner.CheckCountry()'><b>CheckCountry</b><br>Test class: PageRunner.SiteNavigationRunner</td>
+<td></td>
+<td>42</td>
+<td>PageRunner.SiteNavigationRunner@7ef82753</td></tr>
+<tr>
+<td title='PageRunner.SignupRunner.validFnamelNameEmailandRegisterForm()'><b>validFnamelNameEmailandRegisterForm</b><br>Test class: PageRunner.SignupRunner<br>Test method: Valid FName,Lname and email No  Error Message</td>
+<td></td>
+<td>8</td>
+<td>PageRunner.SignupRunner@74e28667</td></tr>
+<tr>
+<td title='PageRunner.LoginRunner.validLoginDetails()'><b>validLoginDetails</b><br>Test class: PageRunner.LoginRunner</td>
+<td></td>
+<td>7</td>
+<td>PageRunner.LoginRunner@1cf6d1be</td></tr>
 </table><p>
 </body>
 </html>

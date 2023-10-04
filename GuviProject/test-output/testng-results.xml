@@ -1,109 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-03T16:42:14 IST" name="Suite" finished-at="2023-10-03T16:44:25 IST" duration-ms="131264">
+  <suite started-at="2023-10-03T18:30:34 IST" name="Suite" finished-at="2023-10-03T18:41:19 IST" duration-ms="645295">
     <groups>
     </groups>
-    <test started-at="2023-10-03T16:42:14 IST" name="Test" finished-at="2023-10-03T16:44:25 IST" duration-ms="131264">
+    <test started-at="2023-10-03T18:30:34 IST" name="Test" finished-at="2023-10-03T18:41:19 IST" duration-ms="645295">
+      <class name="PageRunner.HomePageNavigationrunner">
+        <test-method signature="BottomPageLinks()[pri:0, instance:PageRunner.HomePageNavigationrunner@663c9e7a]" started-at="2023-10-03T18:35:42 IST" name="BottomPageLinks" finished-at="2023-10-03T18:37:28 IST" duration-ms="105716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BottomPageLinks -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.HomePageNavigationrunner@663c9e7a]" started-at="2023-10-03T18:37:28 IST" name="screenShot" finished-at="2023-10-03T18:37:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BottomPageLinks status=SUCCESS method=HomePageNavigationrunner.BottomPageLinks()[pri:0, instance:PageRunner.HomePageNavigationrunner@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="HomePageMenuLinks()[pri:0, instance:PageRunner.HomePageNavigationrunner@663c9e7a]" started-at="2023-10-03T18:37:28 IST" name="HomePageMenuLinks" finished-at="2023-10-03T18:39:20 IST" duration-ms="112340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageMenuLinks -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.HomePageNavigationrunner@663c9e7a]" started-at="2023-10-03T18:39:20 IST" name="screenShot" finished-at="2023-10-03T18:39:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageMenuLinks status=SUCCESS method=HomePageNavigationrunner.HomePageMenuLinks()[pri:0, instance:PageRunner.HomePageNavigationrunner@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- PageRunner.HomePageNavigationrunner -->
+      <class name="PageRunner.AccountCreationRunner">
+        <test-method signature="clickAccountCreation()[pri:0, instance:PageRunner.AccountCreationRunner@7161d8d1]" started-at="2023-10-03T18:32:24 IST" name="clickAccountCreation" finished-at="2023-10-03T18:32:25 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccountCreation -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.AccountCreationRunner@7161d8d1]" started-at="2023-10-03T18:32:25 IST" name="screenShot" finished-at="2023-10-03T18:32:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickAccountCreation status=SUCCESS method=AccountCreationRunner.clickAccountCreation()[pri:0, instance:PageRunner.AccountCreationRunner@7161d8d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="validateAccountPopup()[pri:0, instance:PageRunner.AccountCreationRunner@7161d8d1]" started-at="2023-10-03T18:32:25 IST" name="validateAccountPopup" finished-at="2023-10-03T18:33:30 IST" duration-ms="64636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAccountPopup -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.AccountCreationRunner@7161d8d1]" started-at="2023-10-03T18:33:30 IST" name="screenShot" finished-at="2023-10-03T18:33:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAccountPopup status=SUCCESS method=AccountCreationRunner.validateAccountPopup()[pri:0, instance:PageRunner.AccountCreationRunner@7161d8d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- PageRunner.AccountCreationRunner -->
+      <class name="PageRunner.LoginRunner">
+        <test-method signature="loginPage()[pri:0, instance:PageRunner.LoginRunner@1cf6d1be]" started-at="2023-10-03T18:35:19 IST" name="loginPage" finished-at="2023-10-03T18:35:35 IST" duration-ms="16187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.LoginRunner@1cf6d1be]" started-at="2023-10-03T18:35:35 IST" name="screenShot" finished-at="2023-10-03T18:35:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=LoginRunner.loginPage()[pri:0, instance:PageRunner.LoginRunner@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="validLoginDetails()[pri:0, instance:PageRunner.LoginRunner@1cf6d1be]" started-at="2023-10-03T18:35:35 IST" name="validLoginDetails" finished-at="2023-10-03T18:35:42 IST" duration-ms="7114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginDetails -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.LoginRunner@1cf6d1be]" started-at="2023-10-03T18:35:42 IST" name="screenShot" finished-at="2023-10-03T18:35:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginDetails status=SUCCESS method=LoginRunner.validLoginDetails()[pri:0, instance:PageRunner.LoginRunner@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- PageRunner.LoginRunner -->
       <class name="PageRunner.SiteNavigationRunner">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:PageRunner.SiteNavigationRunner@7674f035]" started-at="2023-10-03T16:42:14 IST" name="setUp" finished-at="2023-10-03T16:42:20 IST" duration-ms="6142" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PageRunner.SiteNavigationRunner@7ef82753]" started-at="2023-10-03T18:30:34 IST" name="setUp" finished-at="2023-10-03T18:31:01 IST" duration-ms="27378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="test()[pri:0, instance:PageRunner.SiteNavigationRunner@7674f035]" started-at="2023-10-03T16:42:20 IST" name="test" finished-at="2023-10-03T16:42:22 IST" depends-on-methods="DriverSetup.BrowserSetup.setUp" duration-ms="1968" status="PASS">
+        <test-method is-config="true" signature="test()[pri:0, instance:PageRunner.SiteNavigationRunner@7ef82753]" started-at="2023-10-03T18:31:01 IST" name="test" finished-at="2023-10-03T18:31:11 IST" depends-on-methods="DriverSetup.BrowserSetup.setUp" duration-ms="9629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method signature="CheckCountry()[pri:1, instance:PageRunner.SiteNavigationRunner@7674f035]" started-at="2023-10-03T16:42:22 IST" name="CheckCountry" finished-at="2023-10-03T16:42:40 IST" duration-ms="17815" status="PASS">
+        <test-method signature="CheckCountry()[pri:1, instance:PageRunner.SiteNavigationRunner@7ef82753]" started-at="2023-10-03T18:31:11 IST" name="CheckCountry" finished-at="2023-10-03T18:31:54 IST" duration-ms="42968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckCountry -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SiteNavigationRunner@7674f035]" started-at="2023-10-03T16:42:40 IST" name="screenShot" finished-at="2023-10-03T16:42:40 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SiteNavigationRunner@7ef82753]" started-at="2023-10-03T18:31:54 IST" name="screenShot" finished-at="2023-10-03T18:31:54 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CheckCountry status=SUCCESS method=SiteNavigationRunner.CheckCountry()[pri:1, instance:PageRunner.SiteNavigationRunner@7674f035] output={null}]]]>
+                <![CDATA[[TestResult name=CheckCountry status=SUCCESS method=SiteNavigationRunner.CheckCountry()[pri:1, instance:PageRunner.SiteNavigationRunner@7ef82753] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method signature="survey_window()[pri:1, instance:PageRunner.SiteNavigationRunner@7674f035]" started-at="2023-10-03T16:42:40 IST" name="survey_window" finished-at="2023-10-03T16:43:10 IST" duration-ms="30140" status="PASS">
+        <test-method signature="survey_window()[pri:1, instance:PageRunner.SiteNavigationRunner@7ef82753]" started-at="2023-10-03T18:31:54 IST" name="survey_window" finished-at="2023-10-03T18:32:24 IST" duration-ms="30168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- survey_window -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SiteNavigationRunner@7674f035]" started-at="2023-10-03T16:43:10 IST" name="screenShot" finished-at="2023-10-03T16:43:10 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SiteNavigationRunner@7ef82753]" started-at="2023-10-03T18:32:24 IST" name="screenShot" finished-at="2023-10-03T18:32:24 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=survey_window status=SUCCESS method=SiteNavigationRunner.survey_window()[pri:1, instance:PageRunner.SiteNavigationRunner@7674f035] output={null}]]]>
+                <![CDATA[[TestResult name=survey_window status=SUCCESS method=SiteNavigationRunner.survey_window()[pri:1, instance:PageRunner.SiteNavigationRunner@7ef82753] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method is-config="true" signature="closeDriverObjects()[pri:0, instance:PageRunner.SiteNavigationRunner@7674f035]" started-at="2023-10-03T16:44:25 IST" name="closeDriverObjects" finished-at="2023-10-03T16:44:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeDriverObjects()[pri:0, instance:PageRunner.SiteNavigationRunner@7ef82753]" started-at="2023-10-03T18:41:20 IST" name="closeDriverObjects" finished-at="2023-10-03T18:41:20 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->
       </class> <!-- PageRunner.SiteNavigationRunner -->
-      <class name="PageRunner.PageSearchRunner">
-        <test-method signature="SearchData()[pri:1, instance:PageRunner.PageSearchRunner@248e319b]" started-at="2023-10-03T16:43:10 IST" name="SearchData" finished-at="2023-10-03T16:43:25 IST" duration-ms="14480" status="PASS">
+      <class name="PageRunner.SignupRunner">
+        <test-method signature="SignUpValidation()[pri:1, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:30 IST" name="SignUpValidation" finished-at="2023-10-03T18:33:30 IST" duration-ms="442" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchData -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.PageSearchRunner@248e319b]" started-at="2023-10-03T16:43:25 IST" name="screenShot" finished-at="2023-10-03T16:43:25 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- SignUpValidation -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:30 IST" name="screenShot" finished-at="2023-10-03T18:33:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchData status=SUCCESS method=PageSearchRunner.SearchData()[pri:1, instance:PageRunner.PageSearchRunner@248e319b] output={null}]]]>
+                <![CDATA[[TestResult name=SignUpValidation status=SUCCESS method=SignupRunner.SignUpValidation()[pri:1, instance:PageRunner.SignupRunner@74e28667] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method signature="AddToCart()[pri:2, instance:PageRunner.PageSearchRunner@248e319b]" started-at="2023-10-03T16:43:25 IST" name="AddToCart" finished-at="2023-10-03T16:44:25 IST" duration-ms="60104" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="blankRegistration()[pri:2, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:30 IST" name="blankRegistration" description="User press register button without inputting any data" finished-at="2023-10-03T18:33:31 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankRegistration -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:31 IST" name="screenShot" finished-at="2023-10-03T18:33:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankRegistration status=SUCCESS method=SignupRunner.blankRegistration()[pri:2, instance:PageRunner.SignupRunner@74e28667] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="invalidFirstName()[pri:3, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:31 IST" name="invalidFirstName" description="Firstname cannot include any digit at last" finished-at="2023-10-03T18:33:39 IST" duration-ms="8051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFirstName -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:39 IST" name="screenShot" finished-at="2023-10-03T18:33:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidFirstName status=SUCCESS method=SignupRunner.invalidFirstName()[pri:3, instance:PageRunner.SignupRunner@74e28667] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="invalidLastName()[pri:4, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:39 IST" name="invalidLastName" description="Lastname cannot include any digit at last" finished-at="2023-10-03T18:33:44 IST" duration-ms="5153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLastName -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:44 IST" name="screenShot" finished-at="2023-10-03T18:33:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLastName status=SUCCESS method=SignupRunner.invalidLastName()[pri:4, instance:PageRunner.SignupRunner@74e28667] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="validEmailandRegisterForm()[pri:5, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:44 IST" name="validEmailandRegisterForm" description="After giving valid email No  Error Message" finished-at="2023-10-03T18:33:50 IST" duration-ms="5889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailandRegisterForm -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:50 IST" name="screenShot" finished-at="2023-10-03T18:33:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validEmailandRegisterForm status=SUCCESS method=SignupRunner.validEmailandRegisterForm()[pri:5, instance:PageRunner.SignupRunner@74e28667] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="validFnamelNameEmailandRegisterForm()[pri:6, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:50 IST" name="validFnamelNameEmailandRegisterForm" description="Valid FName,Lname and email No  Error Message" finished-at="2023-10-03T18:33:58 IST" duration-ms="8278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validFnamelNameEmailandRegisterForm -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:58 IST" name="screenShot" finished-at="2023-10-03T18:33:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validFnamelNameEmailandRegisterForm status=SUCCESS method=SignupRunner.validFnamelNameEmailandRegisterForm()[pri:6, instance:PageRunner.SignupRunner@74e28667] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="ValidateAllFields()[pri:7, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:33:58 IST" name="ValidateAllFields" description="No  Error Message all fieled are added" finished-at="2023-10-03T18:35:19 IST" duration-ms="80348" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element <button class="btn btn-lg btn-block btn-primary" type="button" data-track="... - Top">Checkout</button> is not clickable at point (1151, 419). Other element would receive the click: <div class="row">...</div>
-  (Session info: chrome=117.0.5938.132)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b778eb205f715a15eea09419baad9667, clickElement {id=F1A89B435C6450D36D9221432982FA41_element_425}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59581/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b778eb205f715a15eea09419baad9667)] -> xpath: //button[normalize-space()='Checkout']]
-Session ID: b778eb205f715a15eea09419baad9667]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-lg btn-block btn-primary" type="button" data-track="... - Top">Checkout</button> is not clickable at point (1151, 419). Other element would receive the click: <div class="row">...</div>
-  (Session info: chrome=117.0.5938.132)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b778eb205f715a15eea09419baad9667, clickElement {id=F1A89B435C6450D36D9221432982FA41_element_425}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59581/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b778eb205f715a15eea09419baad9667)] -> xpath: //button[normalize-space()='Checkout']]
-Session ID: b778eb205f715a15eea09419baad9667
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at Pages.PageSearch.cartPayment(PageSearch.java:156)
-at Pages.PageSearch.ShopbyDepartment(PageSearch.java:120)
-at PageRunner.PageSearchRunner.AddToCart(PageSearchRunner.java:31)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at PageRunner.SignupRunner.ValidateAllFields(SignupRunner.java:116)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -132,15 +275,47 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddToCart -->
-        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.PageSearchRunner@248e319b]" started-at="2023-10-03T16:44:25 IST" name="screenShot" finished-at="2023-10-03T16:44:25 IST" duration-ms="432" status="PASS">
+        </test-method> <!-- ValidateAllFields -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.SignupRunner@74e28667]" started-at="2023-10-03T18:35:19 IST" name="screenShot" finished-at="2023-10-03T18:35:19 IST" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddToCart status=FAILURE method=PageSearchRunner.AddToCart()[pri:2, instance:PageRunner.PageSearchRunner@248e319b] output={null}]]]>
+                <![CDATA[[TestResult name=ValidateAllFields status=FAILURE method=SignupRunner.ValidateAllFields()[pri:7, instance:PageRunner.SignupRunner@74e28667] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- PageRunner.SignupRunner -->
+      <class name="PageRunner.PageSearchRunner">
+        <test-method signature="SearchData()[pri:1, instance:PageRunner.PageSearchRunner@19e4653c]" started-at="2023-10-03T18:39:20 IST" name="SearchData" finished-at="2023-10-03T18:39:43 IST" duration-ms="22549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchData -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.PageSearchRunner@19e4653c]" started-at="2023-10-03T18:39:43 IST" name="screenShot" finished-at="2023-10-03T18:39:43 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchData status=SUCCESS method=PageSearchRunner.SearchData()[pri:1, instance:PageRunner.PageSearchRunner@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="AddToCart()[pri:2, instance:PageRunner.PageSearchRunner@19e4653c]" started-at="2023-10-03T18:39:43 IST" name="AddToCart" finished-at="2023-10-03T18:41:19 IST" duration-ms="96532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:PageRunner.PageSearchRunner@19e4653c]" started-at="2023-10-03T18:41:19 IST" name="screenShot" finished-at="2023-10-03T18:41:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=PageSearchRunner.AddToCart()[pri:2, instance:PageRunner.PageSearchRunner@19e4653c] output={null}]]]>
               </value>
             </param>
           </params>
