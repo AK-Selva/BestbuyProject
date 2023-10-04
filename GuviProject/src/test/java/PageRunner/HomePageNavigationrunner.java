@@ -36,6 +36,6 @@ public class HomePageNavigationrunner extends BrowserSetup{
 		navigation=new HomePageNavigation(webDriver);
 		//List<WebElement> spans = driver.findElements(By.cssSelector(".nd_list span"));
 ArrayList<String> urls=navigation.homePageBottomLinks(homePage);
-
+//testinig
 	}
 }
